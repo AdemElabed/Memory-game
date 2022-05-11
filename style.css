@@ -1,0 +1,135 @@
+/* Start screen styles */
+#logo, #end-game-msg {
+    font-family: 'Junge', serif;
+    font-size: 70px;
+    padding-top:20%;
+    text-align: center;
+  }
+  
+  #end-game-msg {
+      padding-top: 15%;
+  }
+  
+  #start, #start-over {
+    font-family: 'Ranchers', cursive;
+    font-size:50px;
+    padding-top:1%;
+    text-align: center;
+  }
+  
+  #start:hover, #quit:hover, #start-over:hover {
+      cursor: hand;
+      color:#4e4e4e;
+  }
+  
+  #start-window, #end-game-window {
+    display:block;
+    position:relative;
+    width:100%;
+    height:100%;
+    background-color: #FFFFFF;
+  }
+  
+  #end-game-window {
+      border-bottom: 1px solid black;
+  }
+  
+  /* Main game styles */
+  #play-window{
+    position:absolute;
+    display:block;
+    display:none;
+    height:100%;
+    width:100%;
+  }
+  
+  .game-block{
+    border:0.1px solid #000;
+    position:absolute;
+    width:100px;
+    height:100px;
+    margin-bottom: 10px;
+  }
+  
+  #game-block1{
+    left:300px;
+    top: 210px;
+    border-color:#100d0d;
+  }
+  
+  #game-block2{
+    left:200px;
+    top:210px;
+    border-color:#090909;
+  }
+  
+  #game-block3{
+    left:200px;
+    top:310px;
+    border-color:#040404;
+  }
+  
+  #game-block4{
+    left:300px;
+    top:310px;
+    border-color:#070707;
+  }
+  
+  #game-block5{
+    left:400px;
+    top:210px;
+    border-color:#020202;
+  }
+  
+  #game-block6{
+    left:400px;
+    top:310px;
+    border-color:#010101;
+  }
+  #game-block7{
+    left:200px;
+    top: 410px;
+    border-color:#100d0d;
+  }
+  #game-block8{
+    left:300px;
+    top: 410px;
+    border-color:#100d0d;
+  }
+  #game-block9{
+    left:400px;
+    top: 410px;
+    border-color:#100d0d;
+  }
+  
+  #status-window{
+    position:absolute;
+    left:650px;
+    top:150px;
+  }
+  
+  .level, .score, #notif-msg {
+    font-family: helvetica;
+    font-size: 30px;
+  }
+  
+  #notif-msg {
+    position: relative;
+    top:80px;
+  }
+  
+  #quit{
+    font-family: 'Ranchers', cursive;
+    font-size:50px;
+    position:absolute;
+    left:700px;
+    top:500px;
+  }
+  
+  .fail {
+      color: red;
+  }
+  
+  .success {
+      color:#168d10
+  }
