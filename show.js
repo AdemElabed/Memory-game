@@ -40,7 +40,6 @@ $(document).ready(function () {
     $(".game-block").mousedown(function () {
         if (playersTurn) {
             var gameBlockID = '#' + this.id;
-            var highlightColor = $(this).css('border-color');
 
             // Animate the background-color
             // Can be done using JQuery UI Color Plugin, but for now, use timeout
